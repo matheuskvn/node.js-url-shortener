@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-url-shortener",
+  "version": "1.0.0",
+  "description": "A URL shortener using Node.js with Express",
+  "license": "ISC",
+  "author": "Brandt de Moura Matheus Kevin Levi",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "index.js",
+    "dev": "node --watch --env-file=.env index.js"
+  },
+  "dependencies": {
+    "envconfig": "^1.0.2",
+    "express": "^5.1.0"
+  }
+}
