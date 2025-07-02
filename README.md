@@ -22,10 +22,10 @@ npm install
 ```bash
 node [index.js](http://_vscodecontentref_/0)
 ```
-The server will run on port 8000 by default (or the port set in the PORT environment variable).
+The server will run on port 8000 by default (or the port set in the PORT environment variable.
 
 ### 3. Shorten a URL
-Send a POST request to /shorten with a JSON body:
+Send a POST request to "/shorten" with a JSON body:
 
 ```json
 {
